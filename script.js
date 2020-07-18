@@ -10,13 +10,16 @@
 		if(choiceInLowerCase == 'basic') {
 			p.textContent = "10 PRINT 'Hello, World!'\n20 END";
 			
-		} else if(choice == 'brainfuck') {
+		} else if(choiceInLowerCase == 'brainfuck') {
 			p.textContent = '++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.';
 		
-		} else if(choice == 'c') {
+		} else if(choiceInLowerCase == 'c') {
 			p.textContent = '#include<stdio.h>\nint main(void) {\n\tprintf("Hello, World!");\n\treturn 0;\n}';
+			
+		} else if(choiceInLowerCase == 'c++') {
+			p.textContent = '#include <iostream>\nint main()\n{\n\tstd::cout << "Hello, World!" << std::endl;\n\treturn 0;\n}';
 		
-		} else if(choice == 'c#') {
+		} else if(choiceInLowerCase == 'c#') {
 			p.textContent = "Console.WriteLine('Hello, World!')";
 		
 		} else if(choiceInLowerCase == 'html') {
