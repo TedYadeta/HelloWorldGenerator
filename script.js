@@ -29,7 +29,7 @@
 			p.textContent = "public class HelloWorld {\n\tpublic static void main(String[] args){\n\t\tSystem.out.print('Hello, World!');\n\t}\n}";
 			
 		} else if(choiceInLowerCase == 'javascript') {
-			p.textContent = "console.log('Hello, World!)";
+			p.textContent = "console.log('Hello, World!');";
 		
 		} else if(choiceInLowerCase == 'python') {
 			p.textContent = "print('Hello, World!')";
