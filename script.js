@@ -1,11 +1,11 @@
-	var input = document.querySelector('input');
-	var p = document.querySelector('p');
+	let input = document.querySelector('input');
+	let p = document.querySelector('p');
 	
 	input.addEventListener('change', changeLang);
 	
 	function changeLang() {
-		var choice = input.value;
-		var choiceInLowerCase = choice.toLowerCase();
+		let choice = input.value;
+		let choiceInLowerCase = choice.toLowerCase();
 		
 		if(choiceInLowerCase == 'basic') {
 			p.textContent = "10 PRINT \"Hello, World!\"\n20 END";
