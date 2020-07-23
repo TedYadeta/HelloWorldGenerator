@@ -1,13 +1,16 @@
-	let input = document.querySelector('input');
-	let p = document.querySelector('p');
+	var input = document.querySelector('input');
+	var p = document.querySelector('p');
 	
 	input.addEventListener('change', changeLang);
 	
 	function changeLang() {
-		let choice = input.value;
-		let choiceInLowerCase = choice.toLowerCase();
+		var choice = input.value;
+		var choiceInLowerCase = choice.toLowerCase();
 		
-		if(choiceInLowerCase == 'basic') {
+		if(choiceInLowerCase == 'applescript') {
+			p.textContent = "display dialog \"Hello, World!\"";
+		
+		} else if(choiceInLowerCase == 'basic') {
 			p.textContent = "10 PRINT \"Hello, World!\"\n20 END";
 			
 		} else if(choiceInLowerCase == 'bash') {
@@ -41,7 +44,7 @@
 			p.textContent = "public class HelloWorld {\n\tpublic static void main(String[] args){\n\t\tSystem.out.print('Hello, World!');\n\t}\n}";
 			
 		} else if(choiceInLowerCase == 'javascript') {
-			p.textContent = "console.log('Hello, World!')";
+			p.textContent = "console.log('Hello, World!)";
 			
 		} else if(choiceInLowerCase == 'php') {
 			p.textContent = "<?php\n\tprint 'Hello, World!';\n?>";
