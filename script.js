@@ -7,7 +7,10 @@
 		var choice = input.value;
 		var choiceInLowerCase = choice.toLowerCase();
 		
-		if(choiceInLowerCase == 'applescript') {
+		if(choiceInLowerCase == 'ada') {
+			p.textContent = "with Ada.Text_IO;\n\nprocedure Hello is\nbegin\n\tAda.Text_IO.Put_Line(\"Hello, World!\");\nend Hello;";
+		
+		} else if(choiceInLowerCase == 'applescript') {
 			p.textContent = "display dialog \"Hello, World!\"";
 		
 		} else if(choiceInLowerCase == 'basic') {
@@ -33,6 +36,12 @@
 		
 		} else if(choiceInLowerCase == 'c#') {
 			p.textContent = "Console.WriteLine(\"Hello, World!\")";
+			
+		} else if(choiceInLowerCase == 'd') {
+			p.textContent = "import std.stdio;\n\nvoid main() {\n\twriteln(\"Hello, World!\");\n}";
+			
+		} else if(choiceInLowerCase == 'fortran') {
+			p.textContent = "program helloworld\n\tprint *, \"Hello, World!\"\nend program helloworld";
 			
 		} else if(choiceInLowerCase == 'go') {
 			p.textContent = "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tfmt.Println(\"Hello, World!\")\n}";
