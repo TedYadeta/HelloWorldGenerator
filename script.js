@@ -45,6 +45,9 @@
 			
 		} else if(choiceInLowerCase == 'go') {
 			p.textContent = "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tfmt.Println(\"Hello, World!\")\n}";
+			
+		} else if(choiceInLowerCase == 'haskell') {
+			p.textContent = "main = putStrLn \"Hello, World!\"";
 		
 		} else if(choiceInLowerCase == 'html') {
 			p.textContent = "<DOCTYPE html>\n<head>\n\t<title></title>\n\t<body>\n\t\t<p>Hello, World!</p>\n\t</body>\n</html>";
