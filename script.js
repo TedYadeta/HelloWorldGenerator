@@ -1,5 +1,6 @@
-	var input = document.querySelector('input');
-	var p = document.querySelector('p');
+
+	let input = document.querySelector('input');
+	let p = document.querySelector('p');
 	
 	input.addEventListener('change', changeLang);
 	
@@ -57,6 +58,9 @@
 			
 		} else if(choiceInLowerCase == 'javascript') {
 			p.textContent = "console.log('Hello, World!)";
+			
+		} else if(choiceInLowerCase == 'kotlin') {
+			p.textContent = "fun main(args: Array<String>) {\n\tprintln(\"Hello, World!\")\n}";
 			
 		} else if(choiceInLowerCase == 'php') {
 			p.textContent = "<?php\n\tprint 'Hello, World!';\n?>";
