@@ -64,6 +64,9 @@
 		} else if(choiceInLowerCase == 'kotlin') {
 			p.textContent = "fun main(args: Array<String>) {\n\tprintln(\"Hello, World!\")\n}";
 			
+		} else if(choiceInLowerCase == 'pascal') {
+			p.textContent = "program HelloWorld;\nbegin\n\twriteln(\"Hello, World!\");\nend.";
+			
 		} else if(choiceInLowerCase == 'php') {
 			p.textContent = "<?php\n\tprint 'Hello, World!';\n?>";
 		
@@ -81,3 +84,4 @@
 		}
 		
 	}
+	
