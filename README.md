@@ -1,1 +1,1 @@
-A website that generates the program "Hello, World!" in a given languag
+A website that generates the program "Hello, World!" in a given language
