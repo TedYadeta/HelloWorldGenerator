@@ -64,6 +64,9 @@
 		} else if(choiceInLowerCase == 'kotlin') {
 			p.textContent = "fun main(args: Array<String>) {\n\tprintln(\"Hello, World!\")\n}";
 			
+		} else if(choiceInLowerCase == 'ocaml') {
+			p.textContent = "print_string \"Hello world!\\n\"";
+			
 		} else if(choiceInLowerCase == 'pascal') {
 			p.textContent = "program HelloWorld;\nbegin\n\twriteln(\"Hello, World!\");\nend.";
 			
