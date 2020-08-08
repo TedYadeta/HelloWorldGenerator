@@ -81,6 +81,9 @@
 			
 		} else if(choiceInLowerCase == 'swift') {
 			p.textContent = "import Swift\nprint(\"Hello, World!\")";
+			
+		} else if(choiceInLowerCase == 'vbscript') {
+			p.textContent = "Sub Main()\n\tMsgBox(\"Hello, World!\")\nEnd Sub";
 		
 		} else {
 			p.textContent = "Sorry, I don't have anything for that...";
