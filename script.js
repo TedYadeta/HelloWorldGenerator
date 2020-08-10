@@ -31,6 +31,9 @@
 		} else if(choiceInLowerCase == 'c') {
 			p.textContent = '#include<stdio.h>\nint main(void) {\n\tprintf("Hello, World!");\n\treturn 0;\n}';
 			
+		} else if(choiceInLowerCase == 'cobol') {
+			p.textContent = "IDENTIFICATION DIVISION.\nPROGRAM-ID. hello-world.\nPROCEDURE DIVISION.\n\tDISPLAY \"Hello, World!\"\n\t.";
+			
 		} else if(choiceInLowerCase == 'c++') {
 			p.textContent = '#include <iostream>\nint main()\n{\n\tstd::cout << "Hello, World!" << std::endl;\n\treturn 0;\n}';
 		
