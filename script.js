@@ -82,6 +82,9 @@
 		} else if(choiceInLowerCase == 'ruby') {
 			p.textContent = "puts 'Hello, World!'";
 			
+		} else if(choiceInLowerCase == 'snobol') {
+			p.textContent = "\tOUTPUT = \"Hello, World!\"\nEND";
+			
 		} else if(choiceInLowerCase == 'swift') {
 			p.textContent = "import Swift\nprint(\"Hello, World!\")";
 			
