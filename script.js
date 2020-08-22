@@ -64,6 +64,9 @@
 		} else if(choiceInLowerCase == 'javascript') {
 			p.textContent = "console.log('Hello, World!)";
 			
+		} else if(choiceInLowerCase == 'julia') {
+			p.textContent = "'Hello, World!'";
+			
 		} else if(choiceInLowerCase == 'kotlin') {
 			p.textContent = "fun main(args: Array<String>) {\n\tprintln(\"Hello, World!\")\n}";
 			
