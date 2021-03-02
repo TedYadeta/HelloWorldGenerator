@@ -78,6 +78,9 @@
 			
 		} else if(choiceInLowerCase == 'php') {
 			p.textContent = "<?php\n\tprint 'Hello, World!';\n?>";
+			
+		} else if(choiceInLowerCase == 'powershell') {
+			p.textContent = "Write-Host 'Hello, World!'";
 		
 		} else if(choiceInLowerCase == 'python') {
 			p.textContent = "print('Hello, World!')";
