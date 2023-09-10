@@ -96,10 +96,16 @@
 			
 		} else if(choiceInLowerCase == 'vbscript') {
 			p.textContent = "Sub Main()\n\tMsgBox(\"Hello, World!\")\nEnd Sub";
+
+		} else if(choiceInLowerCase == 'vimscript') {
+			p.textContent = "echo: Hello, World!"
+
+		} else if(choiceInLowerCase == 'latin') {
+			p.textContent = "Lingua latina non lingua programmatica est, sed verbis 'Salve, Terram!' laborat."
 		
 		} else {
 			p.textContent = "Sorry, I don't have anything for that...";
 		}
-		
+
 	}
 	
